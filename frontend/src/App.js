@@ -12,7 +12,7 @@ function App() {
   const [editArticle, setEditArticle] = useState(null)
   const navigate = useNavigate();
   useEffect(()=>{
-    fetch('https://articles-one-xi.vercel.app/api/articles/',{
+    fetch('https://articles-backend.vercel.app/api/articles/',{
       'method':'GET',
       headers:{
         'Content-Type':'application/json',
